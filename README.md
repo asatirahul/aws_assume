@@ -20,7 +20,7 @@ Clone the repository and run:
 ```sh
 source aws_login.sh
 ```
-Then assume role using the commnad mentioned in [Command](command) section.
+Then assume role using the commnad mentioned in [Command](#command) section.
 
 ## Command
 ```bash
