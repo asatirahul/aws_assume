@@ -15,6 +15,13 @@ When called the first time, it will assume the AWS role and set AWS variables in
 9. Set AWS variables in current session. 
 10. Exit.
 
+## Setup
+Clone the repository and run:
+```sh
+source aws_login.sh
+```
+Then assume role using the commnad mentioned in [Command](command) section.
+
 ## Command
 ```bash
 aws_assume <profile to assume> <profile name to store assumed credentials> <session duration in seconds>
