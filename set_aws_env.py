@@ -98,7 +98,7 @@ if __name__ == "__main__":
     action = sys.argv[1]
     profile_name = "profile " + sys.argv[2]
     assume_profile_name = sys.argv[3]
-    duration = sys.argv[4]
+    duration = int(sys.argv[4])
     mfa_token = sys.argv[5]
     username = "aws_session"
     try:
